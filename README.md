@@ -37,14 +37,41 @@ manuscript/   Manuscript draft
 
 ## Main Figures
 
-* Figure 1 – Immune score survival analysis (TCGA)
-* Figure 2 – Immune checkpoint expression in immune-high and immune-low tumors
-* Figure 3 – Correlations between immune score and checkpoint genes
-* Figure 4 – Association between HAVCR2 expression and immune score
-* Figure 5 – CGGA survival validation
-* Figure 6 – HAVCR2 expression by grade and IDH status
-* Figure 7 – HAVCR2 and macrophage infiltration in TCGA
-* Figure 8 – CGGA validation of the HAVCR2–macrophage association
+## Main Figures
+
+### Figure 1 – Immune score survival analysis (TCGA)
+
+![Figure1](figures/Figure1_ImmuneScore_KM.png)
+
+### Figure 2 – Immune checkpoint expression in immune-high and immune-low tumors
+
+![Figure2](figures/Figure2_Checkpoint_Boxplots.png)
+
+### Figure 3 – Correlations between immune score and checkpoint genes
+
+![Figure3](figures/Figure3_Checkpoint_Correlations.png)
+
+### Figure 4 – Association between HAVCR2 expression and immune score
+
+![Figure4](figures/Figure4_HAVCR2_ImmuneScore_Scatter.png)
+
+### Figure 5 – CGGA survival validation
+
+![Figure5](figures/Figure5_CGGA_HAVCR2_KM.png)
+
+### Figure 6 – HAVCR2 expression by grade and IDH status
+
+![Figure6](figures/Figure6_HAVCR2_Grade_IDH.png)
+
+### Figure 7 – HAVCR2 and macrophage infiltration in TCGA
+
+![Figure7](figures/Figure7_HAVCR2_MacrophageScore.png)
+
+### Figure 8 – CGGA validation of the HAVCR2–macrophage association
+
+![Figure8](figures/Figure8_CGGA_HAVCR2_Macrophages.png)
+
+---
 
 ## Key Results
 
