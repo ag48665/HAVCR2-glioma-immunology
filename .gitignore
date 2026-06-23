@@ -1,0 +1,6 @@
+GDCdata/
+data/
+
+*.RData
+*.rds
+*.tar.gz
