@@ -84,6 +84,21 @@ manuscript/   Manuscript draft
 | HAVCR2–macrophage correlation (CGGA)          | rho = 0.860                 |
 | CGGA survival validation                      | Log-rank p < 0.0001         |
 
+---
+## Reproducibility
+
+Analyses were performed using R version 4.5.2.
+
+Main packages:
+- TCGAbiolinks
+- SummarizedExperiment
+- survival
+- survminer
+- ggplot2
+- dplyr
+
+---
+
 ## Manuscript
 
 The manuscript draft is available in the `manuscript/` directory.
