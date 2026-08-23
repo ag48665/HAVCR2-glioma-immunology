@@ -1,0 +1,26 @@
+# R / RStudio local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# R serialized/intermediate objects
+*.rds
+*.RDS
+*.RData
+*.RDataTmp*
+
+# Downloaded source data
+data/GDC_CLIENT/
+data/GDC_STAR/
+data/*.rds
+data/*.RDS
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
