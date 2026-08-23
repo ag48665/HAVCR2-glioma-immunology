@@ -46,12 +46,15 @@ scripts/ - R analysis scripts
 ## Main Figures
 
 # Figures
+# Figures
 
 This directory contains the main figures associated with the manuscript:
 
 **Gabara A. HAVCR2 Is Associated With Immune and Macrophage Enrichment and Unfavourable Clinical Outcome in Glioma: An Integrated TCGA and CGGA Analysis.**
 
 ## Figure 1 – Immune Score and Overall Survival in TCGA Glioma
+
+![Figure 1 – Immune Score and Overall Survival in TCGA Glioma](Figure1_FINAL_TCGA_immune_score_KM_publication.png)
 
 **File:** `Figure1_FINAL_TCGA_immune_score_KM_publication.png`
 
@@ -63,15 +66,19 @@ High immune score was associated with significantly shorter overall survival (lo
 
 ## Figure 2 – Immune Checkpoint Expression According to Immune Score
 
+![Figure 2 – Immune Checkpoint Expression](Figure2_Checkpoint_Boxplots.png)
+
 **File:** `Figure2_Checkpoint_Boxplots.png`
 
 Comparison of immune checkpoint gene expression between immune-high and immune-low tumors.
 
-The analysis includes immune checkpoint genes such as PDCD1, CD274, CTLA4, LAG3, TIGIT, and HAVCR2.
+The analysis includes PDCD1, CD274, CTLA4, LAG3, TIGIT, and HAVCR2.
 
 ---
 
 ## Figure 3 – Correlations Between Immune Score and Immune Checkpoint Genes
+
+![Figure 3 – Immune Score and Checkpoint Correlations](Figure3_Checkpoint_Correlations.png)
 
 **File:** `Figure3_Checkpoint_Correlations.png`
 
@@ -80,6 +87,8 @@ Spearman correlations between ESTIMATE-derived immune score and immune checkpoin
 ---
 
 ## Figure 4 – Association Between HAVCR2 Expression and Immune Score
+
+![Figure 4 – HAVCR2 and ESTIMATE Immune Score](Figure4_REVISED_HAVCR2_ESTIMATE.png)
 
 **File:** `Figure4_REVISED_HAVCR2_ESTIMATE.png`
 
@@ -91,6 +100,8 @@ HAVCR2 showed a strong positive association with immune score (Spearman rho = 0.
 
 ## Figure 5 – HAVCR2 Expression and Overall Survival in CGGA
 
+![Figure 5 – CGGA HAVCR2 Survival Analysis](Figure5_CGGA_HAVCR2_KM.png)
+
 **File:** `Figure5_CGGA_HAVCR2_KM.png`
 
 Kaplan–Meier analysis of overall survival according to HAVCR2 expression in the independent CGGA mRNAseq_693 cohort.
@@ -101,6 +112,8 @@ Higher HAVCR2 expression was associated with shorter overall survival in univari
 
 ## Figure 6 – HAVCR2 Expression According to Grade and IDH Status
 
+![Figure 6 – HAVCR2 Expression According to Grade and IDH Status](Figure6_HAVCR2_Grade_IDH.png)
+
 **File:** `Figure6_HAVCR2_Grade_IDH.png`
 
 HAVCR2 expression according to tumor grade and IDH status in the CGGA validation cohort.
@@ -108,6 +121,8 @@ HAVCR2 expression according to tumor grade and IDH status in the CGGA validation
 ---
 
 ## Figure 7 – HAVCR2 and Macrophage-Associated Transcriptional Enrichment in TCGA
+
+![Figure 7 – HAVCR2 and Macrophage Score](Figure7_HAVCR2_MacrophageScore.png)
 
 **File:** `Figure7_HAVCR2_MacrophageScore.png`
 
@@ -119,12 +134,29 @@ HAVCR2 showed a strong positive correlation with the macrophage marker score (Sp
 
 ## Figure 8 – CGGA Validation of the HAVCR2–Macrophage Association
 
+![Figure 8 – CGGA HAVCR2 and Macrophage Association](Figure8_CGGA_HAVCR2_Macrophages.png)
+
 **File:** `Figure8_CGGA_HAVCR2_Macrophages.png`
 
 Independent validation of the association between HAVCR2 expression and macrophage-associated transcriptional enrichment in the CGGA mRNAseq_693 cohort.
 
 HAVCR2 showed a strong positive correlation with the macrophage marker score (Spearman rho = 0.860).
 
+---
+
+## Reproducibility
+
+The figures were generated using the R analysis scripts provided in the [`scripts/`](../scripts/) directory.
+
+Statistical results and supporting output files are available in the [`results/`](../results/) directory.
+
+Manuscript tables are available in the [`tables/`](../tables/) directory.
+
+## Notes
+
+Figures are provided as PNG files for direct viewing through GitHub.
+
+All analyses were performed using publicly available, de-identified TCGA and CGGA datasets.
 ---
 
 ## Reproducibility
