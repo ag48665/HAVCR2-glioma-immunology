@@ -1,0 +1,3 @@
+"Analysis","Test","N","p_value"
+"HAVCR2 vs tumor grade","Kruskal-Wallis",692,4.92742328037992e-07
+"HAVCR2 vs IDH status","Wilcoxon rank-sum",642,9.69953609511723e-09

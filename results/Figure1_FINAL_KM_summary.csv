@@ -1,0 +1,2 @@
+"analysis","total_n","total_deaths","immune_score_median","low_n","high_n","low_deaths","high_deaths","logrank_chisq","logrank_p","excluded_negative_OS"
+"TCGA-LGG+GBM Kaplan-Meier",604,180,1030.22135,302,302,56,124,46.4951997498889,9.18431679315041e-12,3
