@@ -37,26 +37,19 @@ All analyses were performed using publicly available, de-identified datasets.
 
 ## Repository Structure
 
-figures/ - Manuscript figures
-
-results/ - Statistical results and summary tables
-
-scripts/ - R analysis scripts
+- [`figures/`](figures/) — manuscript figures
+- [`tables/`](tables/) — manuscript tables
+- [`results/`](results/) — statistical results and supporting outputs
+- [`scripts/`](scripts/) — R analysis scripts
+- [`data/`](data/) — data availability and source-data documentation
 
 ## Main Figures
 
-# Figures
-# Figures
+### Figure 1 – Immune Score and Overall Survival in TCGA Glioma
 
-This directory contains the main figures associated with the manuscript:
+![Figure 1 – Immune Score and Overall Survival in TCGA Glioma](figures/Figure1_FINAL_TCGA_immune_score_KM_publication.png)
 
-**Gabara A. HAVCR2 Is Associated With Immune and Macrophage Enrichment and Unfavourable Clinical Outcome in Glioma: An Integrated TCGA and CGGA Analysis.**
-
-## Figure 1 – Immune Score and Overall Survival in TCGA Glioma
-
-![Figure 1 – Immune Score and Overall Survival in TCGA Glioma](Figure1_FINAL_TCGA_immune_score_KM_publication.png)
-
-**File:** `Figure1_FINAL_TCGA_immune_score_KM_publication.png`
+**File:** `figures/Figure1_FINAL_TCGA_immune_score_KM_publication.png`
 
 Kaplan–Meier analysis of overall survival according to ESTIMATE-derived immune score in the combined TCGA glioma cohort.
 
@@ -64,11 +57,11 @@ High immune score was associated with significantly shorter overall survival (lo
 
 ---
 
-## Figure 2 – Immune Checkpoint Expression According to Immune Score
+### Figure 2 – Immune Checkpoint Expression According to Immune Score
 
-![Figure 2 – Immune Checkpoint Expression](Figure2_Checkpoint_Boxplots.png)
+![Figure 2 – Immune Checkpoint Expression](figures/Figure2_Checkpoint_Boxplots.png)
 
-**File:** `Figure2_Checkpoint_Boxplots.png`
+**File:** `figures/Figure2_Checkpoint_Boxplots.png`
 
 Comparison of immune checkpoint gene expression between immune-high and immune-low tumors.
 
@@ -76,21 +69,21 @@ The analysis includes PDCD1, CD274, CTLA4, LAG3, TIGIT, and HAVCR2.
 
 ---
 
-## Figure 3 – Correlations Between Immune Score and Immune Checkpoint Genes
+### Figure 3 – Correlations Between Immune Score and Immune Checkpoint Genes
 
-![Figure 3 – Immune Score and Checkpoint Correlations](Figure3_Checkpoint_Correlations.png)
+![Figure 3 – Immune Score and Checkpoint Correlations](figures/Figure3_Checkpoint_Correlations.png)
 
-**File:** `Figure3_Checkpoint_Correlations.png`
+**File:** `figures/Figure3_Checkpoint_Correlations.png`
 
 Spearman correlations between ESTIMATE-derived immune score and immune checkpoint gene expression in TCGA glioma.
 
 ---
 
-## Figure 4 – Association Between HAVCR2 Expression and Immune Score
+### Figure 4 – Association Between HAVCR2 Expression and Immune Score
 
-![Figure 4 – HAVCR2 and ESTIMATE Immune Score](Figure4_REVISED_HAVCR2_ESTIMATE.png)
+![Figure 4 – HAVCR2 and ESTIMATE Immune Score](figures/Figure4_REVISED_HAVCR2_ESTIMATE.png)
 
-**File:** `Figure4_REVISED_HAVCR2_ESTIMATE.png`
+**File:** `figures/Figure4_REVISED_HAVCR2_ESTIMATE.png`
 
 Association between HAVCR2 expression and ESTIMATE-derived immune infiltration in TCGA glioma.
 
@@ -98,11 +91,11 @@ HAVCR2 showed a strong positive association with immune score (Spearman rho = 0.
 
 ---
 
-## Figure 5 – HAVCR2 Expression and Overall Survival in CGGA
+### Figure 5 – HAVCR2 Expression and Overall Survival in CGGA
 
-![Figure 5 – CGGA HAVCR2 Survival Analysis](Figure5_CGGA_HAVCR2_KM.png)
+![Figure 5 – CGGA HAVCR2 Survival Analysis](figures/Figure5_CGGA_HAVCR2_KM.png)
 
-**File:** `Figure5_CGGA_HAVCR2_KM.png`
+**File:** `figures/Figure5_CGGA_HAVCR2_KM.png`
 
 Kaplan–Meier analysis of overall survival according to HAVCR2 expression in the independent CGGA mRNAseq_693 cohort.
 
@@ -110,21 +103,21 @@ Higher HAVCR2 expression was associated with shorter overall survival in univari
 
 ---
 
-## Figure 6 – HAVCR2 Expression According to Grade and IDH Status
+### Figure 6 – HAVCR2 Expression According to Grade and IDH Status
 
-![Figure 6 – HAVCR2 Expression According to Grade and IDH Status](Figure6_HAVCR2_Grade_IDH.png)
+![Figure 6 – HAVCR2 Expression According to Grade and IDH Status](figures/Figure6_HAVCR2_Grade_IDH.png)
 
-**File:** `Figure6_HAVCR2_Grade_IDH.png`
+**File:** `figures/Figure6_HAVCR2_Grade_IDH.png`
 
 HAVCR2 expression according to tumor grade and IDH status in the CGGA validation cohort.
 
 ---
 
-## Figure 7 – HAVCR2 and Macrophage-Associated Transcriptional Enrichment in TCGA
+### Figure 7 – HAVCR2 and Macrophage-Associated Transcriptional Enrichment in TCGA
 
-![Figure 7 – HAVCR2 and Macrophage Score](Figure7_HAVCR2_MacrophageScore.png)
+![Figure 7 – HAVCR2 and Macrophage Score](figures/Figure7_HAVCR2_MacrophageScore.png)
 
-**File:** `Figure7_HAVCR2_MacrophageScore.png`
+**File:** `figures/Figure7_HAVCR2_MacrophageScore.png`
 
 Association between HAVCR2 expression and macrophage-associated transcriptional enrichment in TCGA glioma.
 
@@ -132,63 +125,26 @@ HAVCR2 showed a strong positive correlation with the macrophage marker score (Sp
 
 ---
 
-## Figure 8 – CGGA Validation of the HAVCR2–Macrophage Association
+### Figure 8 – CGGA Validation of the HAVCR2–Macrophage Association
 
-![Figure 8 – CGGA HAVCR2 and Macrophage Association](Figure8_CGGA_HAVCR2_Macrophages.png)
+![Figure 8 – CGGA HAVCR2 and Macrophage Association](figures/Figure8_CGGA_HAVCR2_Macrophages.png)
 
-**File:** `Figure8_CGGA_HAVCR2_Macrophages.png`
+**File:** `figures/Figure8_CGGA_HAVCR2_Macrophages.png`
 
 Independent validation of the association between HAVCR2 expression and macrophage-associated transcriptional enrichment in the CGGA mRNAseq_693 cohort.
 
 HAVCR2 showed a strong positive correlation with the macrophage marker score (Spearman rho = 0.860).
 
----
-
-## Reproducibility
-
-The figures were generated using the R analysis scripts provided in the [`scripts/`](../scripts/) directory.
-
-Statistical results and supporting output files are available in the [`results/`](../results/) directory.
-
-Manuscript tables are available in the [`tables/`](../tables/) directory.
-
-## Notes
-
-Figures are provided as PNG files for direct viewing through GitHub.
-
-All analyses were performed using publicly available, de-identified TCGA and CGGA datasets.
----
-
-## Reproducibility
-
-The figures were generated using the R analysis scripts provided in the [`scripts/`](../scripts/) directory.
-
-Statistical results and supporting output files are available in the [`results/`](../results/) directory.
-
-Manuscript tables are available in the [`tables/`](../tables/) directory.
-
-## Notes
-
-Figures are provided as PNG files for direct viewing through GitHub.
-
-All analyses were performed using publicly available, de-identified TCGA and CGGA datasets.
 ## Key Results
 
 - High immune score and overall survival: log-rank p < 0.0001.
-
-- TCGA multivariable immune-score analysis: HR per 100-unit increase = 1.032 (95% CI 1.015-1.050), p = 2.54 x 10^-4.
-
-- HAVCR2-immune score association: Spearman rho = 0.887 (n = 601).
-
-- HAVCR2-macrophage marker score in TCGA: Spearman rho = 0.905 (n = 800).
-
-- HAVCR2-macrophage marker score in CGGA: Spearman rho = 0.860.
-
+- TCGA multivariable immune-score analysis: HR per 100-unit increase = 1.032 (95% CI 1.015–1.050), p = 2.54 × 10^-4.
+- HAVCR2–immune score association: Spearman rho = 0.887 (n = 601).
+- HAVCR2–macrophage marker score in TCGA: Spearman rho = 0.905 (n = 800).
+- HAVCR2–macrophage marker score in CGGA: Spearman rho = 0.860.
 - CGGA HAVCR2 survival analysis: log-rank p < 0.0001.
-
-- HAVCR2 univariable Cox analysis in CGGA: HR = 1.035 (95% CI 1.022-1.047), p = 2.61 x 10^-8.
-
-- HAVCR2 multivariable Cox analysis in CGGA: HR per 1-SD increase = 1.052 (95% CI 0.961-1.151), p = 0.274.
+- HAVCR2 univariable Cox analysis in CGGA: HR = 1.035 (95% CI 1.022–1.047), p = 2.61 × 10^-8.
+- HAVCR2 multivariable Cox analysis in CGGA: HR per 1-SD increase = 1.052 (95% CI 0.961–1.151), p = 0.274.
 
 ## Reproducibility
 
@@ -206,7 +162,9 @@ Major tools and packages used in the analysis include:
 - fgsea
 - msigdbr
 
-Statistical analyses included Kaplan-Meier survival analysis, log-rank tests, Cox proportional hazards regression, Wilcoxon rank-sum tests, Spearman rank correlations, cell-type deconvolution, marker-based transcriptional scoring, co-expression analysis, and preranked gene set enrichment analysis.
+Statistical analyses included Kaplan–Meier survival analysis, log-rank tests, Cox proportional hazards regression, Wilcoxon rank-sum tests, Spearman rank correlations, cell-type deconvolution, marker-based transcriptional scoring, co-expression analysis, and preranked gene set enrichment analysis.
+
+The analysis scripts are available in [`scripts/`](scripts/), statistical results and supporting outputs in [`results/`](results/), and manuscript tables in [`tables/`](tables/).
 
 ## Data Availability
 
@@ -214,9 +172,11 @@ TCGA data are publicly available through the Genomic Data Commons Data Portal.
 
 CGGA data are publicly available through the Chinese Glioma Genome Atlas data portal.
 
+Large downloaded source files and intermediate R objects are not distributed through this repository. The [`data/`](data/) directory provides additional information on the datasets and data availability.
+
 No new patient-level datasets were generated during this study.
 
-The repository provides the analysis workflow, code, statistical results, and supporting materials required to reproduce the analyses from the publicly available source datasets.
+The repository provides the analysis workflow, code, statistical results, figures, and supporting materials required to reproduce the analyses from the publicly available source datasets.
 
 ## Author
 
@@ -230,4 +190,4 @@ This repository is provided for academic and research purposes.
 
 If you use this repository, please cite the associated manuscript:
 
-Gabara A. HAVCR2 Is Associated With Immune and Macrophage Enrichment and Unfavourable Clinical Outcome in Glioma: An Integrated TCGA and CGGA Analysis. Cancer Informatics. Under review.
+Gabara A. *HAVCR2 Is Associated With Immune and Macrophage Enrichment and Unfavourable Clinical Outcome in Glioma: An Integrated TCGA and CGGA Analysis.* Cancer Informatics. Under review.
